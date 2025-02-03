@@ -1,5 +1,7 @@
+
 .form {
-  width: 500px;
+  margin: 0 auto;
+  max-width: 500px;
   margin-bottom: 40px;
 }
 
@@ -39,8 +41,7 @@
   border-radius: 8px;
   outline: none;
   cursor: pointer;
-  transition: color 250ms ease, background-color 250ms ease,
-    border-color 250ms ease;
+  transition: color 250ms ease, background-color 250ms ease, border-color 250ms ease;
 
   &:hover,
   &:focus {

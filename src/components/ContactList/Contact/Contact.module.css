@@ -3,6 +3,7 @@
 }
 
 .contactText {
+  color: #000;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -10,7 +11,6 @@
 
 .contactBtn {
   display: block;
-  margin: 0 auto;
   padding: 10px;
   color: #004000;
   background-color: transparent;
@@ -18,8 +18,7 @@
   border-radius: 8px;
   outline: none;
   cursor: pointer;
-  transition: color 250ms ease, background-color 250ms ease,
-    border-color 250ms ease;
+  transition: color 250ms ease, background-color 250ms ease, border-color 250ms ease;
 
   &:hover,
   &:focus {
@@ -27,4 +26,10 @@
     background-color: #004000;
     border-color: #004000;
   }
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
 }
