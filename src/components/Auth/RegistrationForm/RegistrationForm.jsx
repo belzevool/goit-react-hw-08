@@ -103,7 +103,19 @@ const RegistrationForm = () => {
                   />
                 </Grid>
               </Grid>
-              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{
+                  mt: 3,
+                  mb: 2,
+                  bgcolor: 'green', // Change to your desired color
+                  '&:hover': {
+                    bgcolor: 'darkgreen', // Hover color
+                  },
+                }}
+              >
                 Sign Up
               </Button>
             </Form>

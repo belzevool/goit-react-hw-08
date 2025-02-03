@@ -1,4 +1,3 @@
-
 import { useDispatch } from 'react-redux';
 import { Formik, Form, Field } from 'formik';
 import { logIn } from '../../../redux/auth/operations';
@@ -73,7 +72,12 @@ const LoginForm = () => {
                 error={touched.password && Boolean(errors.password)}
                 helperText={touched.password && errors.password}
               />
-              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{ mt: 3, mb: 2, bgcolor: 'green', '&:hover': { bgcolor: 'darkgreen' } }}
+              >
                 Log In
               </Button>
             </Form>

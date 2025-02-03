@@ -7,7 +7,9 @@ const HomePage = () => {
       <section className={s.homeSection}>
         <div className="container">
           <Title>
-            {'Welcome to your Phonebook App 🙌. Please Sign up ✌ or Log ✔ in to get started.'}
+            {
+              'Welcome to your Phonebook, where staying connected is made easy 🙌. To get started, simply Sign Up  ✌ to create a new account, or Log In ✅  if you already have one. Let`s make managing your contacts a breeze!'
+            }
           </Title>
         </div>
       </section>

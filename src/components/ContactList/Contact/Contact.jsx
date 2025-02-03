@@ -21,11 +21,11 @@ const Contact = ({ contact, onEditClick }) => {
     <>
       <div>
         <div className={s.contactInfo}>
-          <FaUser color="#007bff" />
+          <FaUser color="#004000" />
           <p className={s.contactText}>{name}</p>
         </div>
         <div className={s.contactInfo}>
-          <FaPhoneAlt color="#007bff" />
+          <FaPhoneAlt color="#004000" />
           <p className={s.contactText}> {number}</p>
         </div>
       </div>

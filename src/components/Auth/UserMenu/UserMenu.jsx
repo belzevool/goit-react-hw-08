@@ -11,7 +11,16 @@ const UserMenu = () => {
   return (
     <div className={s.userContainer}>
       <p className={s.userName}>Welcome, {name}</p>
-      <Button type="submit" onClick={() => dispatch(logOut())} fullWidth variant="contained">
+      <Button
+        type="submit"
+        onClick={() => dispatch(logOut())}
+        fullWidth
+        variant="contained"
+        sx={{
+          bgcolor: 'green', // Основной цвет кнопки
+          '&:hover': { bgcolor: 'darkgreen' }, // Цвет при наведении
+        }}
+      >
         Log out
       </Button>
     </div>
